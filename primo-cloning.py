@@ -88,7 +88,7 @@ pcp=[]
 id=[]
 tokenku=[]
 # LOGIN_KEY
-correct_username = darkpogi
+correct_username = 'darkpogi'
 key = 'true'
 
 while key == 'true':
