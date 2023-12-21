@@ -666,12 +666,10 @@ def apix(ids,passlist):
                                                 break
                                 else:
                                         continue
-                        loop+=1
-                    requests.exceptions.ConnectionError:
-                        time.sleep(10)
-                except Exception as e
-                       pass
-                  def approval():
+loop+=1
+except:
+pass
+def approval():
  frist="FUCK["
  last="]YOU"
  uuid=str(os.getuid()) + str(os.getlogin())
