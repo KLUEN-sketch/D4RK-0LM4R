@@ -667,24 +667,22 @@ def apix(ids,passlist):
                                 else:
                                         continue
 loop+=1
-except:
-pass
+	except:
+		pass
 def approval():
- frist="FUCK["
- last="]YOU"
- uuid=str(os.getuid()) + str(os.getlogin())
- key = "6".join(uuid)
- a=requests.get("https://github.com/KLUEN-sketch/approval-/blob/main/approval.txt").text
- if key in a:
-  Spy()
- else:
-  print("YOUR KEY IS NOT APPROVED")
-  os.system("clear")
-  print(logo)
-  print("TOOL IS FREE BUT NEED PERMISSION ")
-  print("PLEASE CONTACT TO ADMIN")
-  os.system('espeak -a 300 " For approved contact admin"')
-  print("Your key : "+frist+key+last)
-  print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-approval()
-	
+	frist="FUCK["
+	last="]YOU"
+	uuid=str(os.getuid()) + str(os.getlogin())
+	key = "6".join(uuid)
+	a=requests.get("https://github.com/KLUEN-sketch/approval-/blob/main/approval.txt").text
+	if key in a:
+		spy()
+	else:
+		print("YOUR KEY IS NOT APPROVED")
+		os.system("clear")
+		print(logo)
+		print("TOOL IS FREE BUT NEED PERMISSION ")
+		print("PLEASE CONTACT TO ADMIN")
+		print("Your key : "+frist+key+last)
+		print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+approval()	
