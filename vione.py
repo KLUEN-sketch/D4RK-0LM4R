@@ -150,7 +150,7 @@ def method_crack():
     print(f'[1] Method {1}')
     print(f'[2] Method {2}')
     print(f'[3] Method {3}')
-    #print(f'[4] Method {4}')
+    print(f'[4] Method {4}')
     print(f'[0] Back')
     print('')
     option = input('Select method>: ')
