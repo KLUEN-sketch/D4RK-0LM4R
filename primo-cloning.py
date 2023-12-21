@@ -92,7 +92,7 @@ correct_username = 'dark-igop'
 key = 'true'
 
 while key == 'true':
-    username = input('\33[0;97m[•]\33[1;96m•────➤\33[1;92mMAY KEY PA TANGA \33[1;91m: ')
+    username = input('\33[0;97m[•]\33[1;96m~~~~~>\33[1;92mMAY KEY PA TANGA \33[1;91m: ')
 
     if username == correct_username:
         print('\33[1;37m-----------------------------------------------\33[0;97m[•]\33[1;32m WELCOME TO DARK OLMAR TOOL ')
