@@ -74,7 +74,7 @@ logo = ("""
  ┃  FACEBOOK : DARK OLMAR
  ┃  GITHUB : NOT FOUND
  ┃  TYPE OF TOOL : PAID
- ┃  VERSION : 0.2        
+ ┃  VERSION : 0.3        
  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 def linex():
         print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
