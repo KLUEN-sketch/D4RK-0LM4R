@@ -669,7 +669,7 @@ def apix(ids,passlist):
                         loop+=1
                     requests.exceptions.ConnectionError:
                         time.sleep(10)
-                except Exception as e::
+                except Exception as e:
                        pass
                   def approval():
  frist="FUCK["
