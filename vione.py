@@ -112,8 +112,8 @@ def sarfraz():
     os.system('clear')
     print(logo)
     print(f'[1] File Crack')
-    print(f'[4] Create File')
-    print(f'[F] Join Facebook Group ')
+    print(f'[2] Create File')
+    print(f'[3] Join Facebook Group ')
     print(f'[0] Exit tool')
     select = input('Select Menu>: ')
     if select =='1':
@@ -163,9 +163,9 @@ def method_crack():
     elif option =='3':
         methods.append('methodC')
         main_crack().crack(id)
-   # elif option =='4':
-    #    methods.append('methodD')
-   #     main_crack().crack(id)
+    elif option =='4':
+        methods.append('methodD')
+        main_crack().crack(id)
     elif option =='0':
         sarfraz()
     else:
