@@ -128,7 +128,7 @@ logo=("""\033[1;37m
 FACEBOOK : PRIMO SOLTERO
 OWNER : DARK OLMAR
 GITHUB : NOT FOUND
-VERSION : 0.1
+VERSION : 0.2
 \033[1;37m═══════════════════════════════════════════════
 \033[92;1m PAID     
 \033[92;1m ENJOY\033[1;37m
