@@ -674,24 +674,10 @@ def apix(ids,passlist):
                         time.sleep(10)
                 except Exception as e:
                         pass
-def approval():
-	frist="DARK["
-	last="]KEY"
-	uuid=str(os.getuid()) + str(os.getlogin())
-	key = "6".join(uuid)
-	a=requests.get("https://github.com/KLUEN-sketch/approval./tree/main").text
-	if key in a:
-		Spy()
-	else:
-		print("YOUR KEY IS NOT APPROVED")
-		os.system("clear")
-		print(logo)
-		print("THIS TOOL IS PAID NEED APPROVAL FIRST ")
-		print("PLEASE CONTACT TO ADMIN")
-		os.system('espeak -a 300 " For approved contact admin"')
-		print("Your key : "+frist+key+last)	
-approval()		
 
+
+	Spy()
+	
 
 		
 
