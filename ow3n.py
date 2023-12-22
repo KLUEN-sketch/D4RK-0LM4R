@@ -67,7 +67,7 @@ def __file__():
         for user in fo:
             ids,names=user.split('|')
             passlist=pas_list
-            Owen.submit(m1,ids,names,passlist)
+            Dipto.submit(m1,ids,names,passlist)
     line()
     print(' THE PROCESS HAS BEEN COMPLETE')
     input(' PRESS ENTER TO BACK : ')
