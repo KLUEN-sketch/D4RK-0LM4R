@@ -95,7 +95,7 @@ correct_username = 'darkpogi'
 key = 'true'
 
 while key == 'true':
-    username = input('\33[0;97m[vione]\33[1;96m~~~~~>\33[1;92mPLEASE ENTER KEY\33[1;91m: ')
+    username = input('\33[0;97m[dark]\33[1;96m~~~~~>\33[1;92mPLEASE ENTER KEY\33[1;91m: ')
 
     if username == correct_username:
         print('\33[1;37m-----------------------------------------------\33[0;97m[•]\33[1;32m WELCOME TO DARK OLMAR TOOL ')
