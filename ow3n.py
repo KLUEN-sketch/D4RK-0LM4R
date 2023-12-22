@@ -31,8 +31,8 @@ def line():
 #----------menu----------#
 def main():
     clear()
-    print(' [1] FILE CLONING ')
-    print(' [0] EXIT ')
+    print(' [A] FILE CLONING ')
+    print(' [E] EXIT ')
     line()
     option=input(' [??] CHOICE MENU : ')
     if option in ['a','A']:
