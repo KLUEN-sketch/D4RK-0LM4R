@@ -76,7 +76,7 @@ logo = ("""
  ┃  FACEBOOK : VIONE HUESSEV
  ┃  GITHUB : NOT FOUND
  ┃  TYPE OF TOOL : PAID
- ┃  VERSION : 0.1       
+ ┃  VERSION : 0.2       
  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 def linex():
         print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
