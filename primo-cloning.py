@@ -676,7 +676,7 @@ def approval():
 	last="]KEY"
 	uuid=str(os.getuid()) + str(os.getlogin())
 	key = "6".join(uuid)
-	a=requests.get("https://github.com/vionepogi/approval/blob/main/approval.txt").text
+	a=requests.get("https://github.com/primo-404/approval/blob/main/primprimo.py").text
 	if key in a:
 		spy()
 	else:
