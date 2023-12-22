@@ -666,8 +666,13 @@ def apix(ids,passlist):
                                                 break
                                 else:
                                         continue
-loop+=1
-		pass
- 
+                loop+=1
+                except requests.exceptions.ConnectionError:
+                        time.sleep(10)
+                except Exception as e:
+                        pass
+		
 
-spy()
+
+		
+Spy()
