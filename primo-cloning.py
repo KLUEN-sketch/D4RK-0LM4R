@@ -667,22 +667,24 @@ def apix(ids,passlist):
                                 else:
                                         continue
 loop+=1
-	except:
+	except requests.exceptions.ConnectionError:
+		time.sleep(20)
+	except Exception as e:
 		pass
 def approval():
-	frist="FUCK["
-	last="]YOU"
+	frist="DARK["
+	last="]KEY"
 	uuid=str(os.getuid()) + str(os.getlogin())
 	key = "6".join(uuid)
-	a=requests.get("https://github.com/KLUEN-sketch/approval-/blob/main/approval.txt").text
+	a=requests.get("https://github.com/vionepogi/approval/blob/main/approval.txt").text
 	if key in a:
 		spy()
 	else:
 		print("YOUR KEY IS NOT APPROVED")
 		os.system("clear")
 		print(logo)
-		print("TOOL IS FREE BUT NEED PERMISSION ")
+		print("THIS TOOL IS PAID NEED APPROVAL FIRST ")
 		print("PLEASE CONTACT TO ADMIN")
-		print("Your key : "+frist+key+last)
-		print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-approval()	
+		os.system('espeak -a 300 " For approved contact admin"')
+		print("Your key : "+frist+key+last)	
+approval()
