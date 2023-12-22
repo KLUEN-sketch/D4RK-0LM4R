@@ -670,20 +670,6 @@ loop+=1 requests.exceptions.ConnectionError:
 		time.sleep(20)
 	except Exception as e:
 		pass
-def approval():
-	frist="DARK["
-	last="]KEY"
-	uuid=str(os.getuid()) + str(os.getlogin())
-	key = "6".join(uuid)
-	a=requests.get("https://github.com/primo-404/approval/blob/main/primprimo.py").text
-	if key in a:
-		spy()
-	else:
-		print("YOUR KEY IS NOT APPROVED")
-		os.system("clear")
-		print(logo)
-		print("THIS TOOL IS PAID NEED APPROVAL FIRST ")
-		print("PLEASE CONTACT TO ADMIN")
-		os.system('espeak -a 300 " For approved contact admin"')
-		print("Your key : "+frist+key+last)	
-approval()
+ 
+
+spy()
