@@ -82,7 +82,7 @@ while key == 'true':
     username = input('\033[0;97m[•]\033[1;96m•────➤\033[1;92mENTER KEY \033[1;91m: \x1b[1;92m')
     if username == CorrectUsername:
             print(f'\033[1;37m-----------------------------------------------\n\033[0;97m[•]\033[1;32m YOU LOGGED IN SUCCESSFULLY') 
-            time.sleep(1)
+            .sleep(1)
             clear()
             key = 'false'
  #----------method------------#
