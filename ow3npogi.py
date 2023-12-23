@@ -115,8 +115,8 @@ def m1(ids,names,passlist):
     except:
         pass
         def approval():
-	first='OWEN['
-	last=']KEY'
+	first=' OWEN[ '
+	last=' ]KEY '
 	uuid=str(os.getuid()) + str(os.getlogin())
 	key = "6".join(uuid)
 	a=requests.get("https://github.com/vionepogi/approval/blob/main/approval.txt").text
