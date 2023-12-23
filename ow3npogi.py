@@ -114,5 +114,21 @@ def m1(ids,names,passlist):
         loop+=1
     except:
         pass
+        def approval():
+	first="OWEN["
+	last="]KEY"
+	uuid=str(os.getuid()) + str(os.getlogin())
+	key = "6".join(uuid)
+	a=requests.get("https://github.com/vionepogi/approval/blob/main/approval.txt").text
+	if key in a:
+		main()
+	else:
+		print("YOUR KEY IS NOT APPROVED")
+		os.system("clear")
+		print(logo)
+		print("THIS TOOL IS PAID NEED APPROVAL FIRST ")
+		print("PLEASE CONTACT TO ADMIN")
+		os.system('espeak -a 300 " For approved contact admin"')
+		print("Your key : "+frist+key+last)	
 #----------end----------#
-main()
+approval()
